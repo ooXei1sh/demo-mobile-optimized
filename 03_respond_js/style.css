@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul li a {
+    display: block;
+    background: #428bca;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+}
+
+/* large and medium screens */
+@media all and (min-width: 640px) {
+
+    ul {
+        display: table;
+    }
+
+    ul li {
+        display: table-cell;
+    }
+}
